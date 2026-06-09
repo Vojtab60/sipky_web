@@ -1,0 +1,29 @@
+[
+  {
+    "id": "praha-centrum-open",
+    "name": "Praha Centrum Open",
+    "date": "18. 7. 2026",
+    "venue": "Hospoda U Terče",
+    "address": "Praha 1, Nové Město",
+    "status": "Registrace brzy",
+    "spots": 32
+  },
+  {
+    "id": "vinohrady-darts-night",
+    "name": "Vinohrady Darts Night",
+    "date": "1. 8. 2026",
+    "venue": "Bar Double",
+    "address": "Praha 2, Vinohrady",
+    "status": "Připravujeme",
+    "spots": 24
+  },
+  {
+    "id": "holesovice-steel-cup",
+    "name": "Holešovice Steel Cup",
+    "date": "15. 8. 2026",
+    "venue": "Na Rohu",
+    "address": "Praha 7, Holešovice",
+    "status": "Připravujeme",
+    "spots": 32
+  }
+]
