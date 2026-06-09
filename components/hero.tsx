@@ -2,12 +2,14 @@ import Image from "next/image";
 import { Trophy } from "lucide-react";
 import { ButtonLink } from "@/components/button-link";
 
+const basePath = process.env.GITHUB_PAGES === "true" ? "/sipky_web" : "";
+
 export function Hero() {
   return (
     <section className="relative isolate min-h-screen overflow-hidden bg-black px-5 py-6 sm:px-8 lg:px-10">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/hero-photo.png"
+          src={`${basePath}/hero-photo.png`}
           alt=""
           fill
           priority
